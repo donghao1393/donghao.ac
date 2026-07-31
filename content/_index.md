@@ -169,6 +169,21 @@ sections:
     design:
       columns: '1'
 
+  # ═══════════════════════ 活动 ═══════════════════════
+  - block: collection
+    id: events
+    content:
+      title: 活动与见闻
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - events
+      count: 5
+    design:
+      view: card
+      columns: '2'
+
   # ═══════════════════════ 联系 ═══════════════════════
   - block: contact-info
     id: contact
@@ -177,11 +192,6 @@ sections:
       subtitle: ''
       text: |-
         如果你对我的开源项目、研究方向或创业方向感兴趣，欢迎联系我。
-
-        <div style="margin-top: 1rem; padding: 1rem; background: var(--color-surface-2); border-radius: 8px; text-align: center; max-width: 200px;">
-          <img src="/uploads/wechat-qr.png" alt="微信二维码" style="width: 100%; border-radius: 4px;">
-          <p style="margin-top: 0.5rem; font-size: 0.9rem;">微信扫一扫</p>
-        </div>
       email: donghao@donghao.ac
       phone: ''
       address:
@@ -209,4 +219,16 @@ sections:
       autolink: true
     design:
       columns: '2'
+
+  # ═══════════════════════ 微信 ═══════════════════════
+  - block: markdown
+    content:
+      text: |-
+        <div style="text-align: center;">
+          <img src="/uploads/wechat-qr.png" alt="微信二维码" style="width: 160px; height: auto; border-radius: 8px; border: 1px solid var(--color-border);">
+          <p style="margin-top: 0.5rem; color: var(--color-text-muted);">微信扫一扫添加</p>
+        </div>
+    design:
+      columns: '1'
 ---
+

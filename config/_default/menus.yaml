@@ -16,6 +16,9 @@ main:
   - name: 视频
     url: /#videos
     weight: 40
+  - name: 活动
+    url: /#events
+    weight: 45
   - name: 博客
     url: /#blog
     weight: 50
