@@ -33,6 +33,21 @@ sections:
         size: medium
         shape: circle
 
+  # ═══════════════════════ 精选项目 ═══════════════════════
+  - block: collection
+    id: projects
+    content:
+      title: 开源项目
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - projects
+      count: 3
+    design:
+      view: card
+      columns: '2'
+
   # ═══════════════════════ 数字说话 ═══════════════════════
   - block: markdown
     content:
@@ -54,51 +69,6 @@ sections:
             <div style="font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1.2;">10+</div>
             <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">年专业经验</div>
           </div>
-        </div>
-    design:
-      columns: '1'
-
-  # ═══════════════════════ 精选项目 ═══════════════════════
-  - block: collection
-    id: projects
-    content:
-      title: 开源项目
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - projects
-      count: 3
-    design:
-      view: card
-      columns: '2'
-
-  # ═══════════════════════ GitHub 开源贡献 ═══════════════════════
-  - block: markdown
-    id: opensource
-    content:
-      title: 开源贡献
-      subtitle: ''
-      text: |-
-        <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
-
-        <div style="flex: 1; min-width: 280px;">
-
-        ### 精选 Pull Request
-
-        - **知名开源项目官方仓库** — 提交并被合并的 PR 引起了社区关注，有开发者专程通过 LinkedIn 邀请合作。
-        - **持续贡献** — 查看 [GitHub Profile](https://github.com/donghao1393) 了解完整的 PR 历史和开源活动。
-
-        </div>
-
-        <div style="flex: 1; min-width: 280px;">
-
-        ### GitHub 动态
-
-        <img src="https://ghchart.rshah.org/donghao1393" alt="GitHub Contributions" style="width: 100%; border-radius: 8px;" />
-
-        </div>
-
         </div>
     design:
       columns: '1'
@@ -130,6 +100,51 @@ sections:
         </div>
 
         <p style="margin-top: 1rem;"><a href="https://space.bilibili.com/38363039" target="_blank">→ 在 B站 查看更多视频（含旅游 vlog）</a></p>
+    design:
+      columns: '1'
+
+  # ═══════════════════════ 活动 ═══════════════════════
+  - block: collection
+    id: events
+    content:
+      title: 活动与见闻
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - events
+      count: 5
+    design:
+      view: card
+      columns: '2'
+
+  # ═══════════════════════ GitHub 开源贡献 ═══════════════════════
+  - block: markdown
+    id: opensource
+    content:
+      title: 开源贡献
+      subtitle: ''
+      text: |-
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
+
+        <div style="flex: 1; min-width: 280px;">
+
+        ### 精选 Pull Request
+
+        - **知名开源项目官方仓库** — 提交并被合并的 PR 引起了社区关注，有开发者专程通过 LinkedIn 邀请合作。
+        - **持续贡献** — 查看 [GitHub Profile](https://github.com/donghao1393) 了解完整的 PR 历史和开源活动。
+
+        </div>
+
+        <div style="flex: 1; min-width: 280px;">
+
+        ### GitHub 动态
+
+        <img src="https://ghchart.rshah.org/donghao1393" alt="GitHub Contributions" style="width: 100%; border-radius: 8px;" />
+
+        </div>
+
+        </div>
     design:
       columns: '1'
 
@@ -169,21 +184,6 @@ sections:
       filters:
         folders:
           - notes
-      count: 5
-    design:
-      view: card
-      columns: '2'
-
-  # ═══════════════════════ 活动 ═══════════════════════
-  - block: collection
-    id: events
-    content:
-      title: 活动与见闻
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - events
       count: 5
     design:
       view: card
@@ -236,4 +236,3 @@ sections:
     design:
       columns: '1'
 ---
-
