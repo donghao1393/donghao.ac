@@ -157,17 +157,18 @@ sections:
       columns: '1'
 
   # ═══════════════════════ 点子/笔记 ═══════════════════════
-  - block: markdown
+  - block: collection
     id: notes
     content:
       title: 点子与思考
-      subtitle: '不定时更新的独立想法'
-      text: |-
-        这里放我日常的思考碎片——脱敏的、资源公开的、就像 GitHub PR 一样随意的分享。
-
-        <p style="margin-top: 1rem;"><em>🚧 内容持续更新中。更多技术文章请访问 <a href="https://jiejue.ai">jiejue.ai</a>。</em></p>
+      subtitle: '不定时更新的独立想法——就像 GitHub PR 一样随意'
+      filters:
+        folders:
+          - notes
+      count: 5
     design:
-      columns: '1'
+      view: card
+      columns: '2'
 
   # ═══════════════════════ 活动 ═══════════════════════
   - block: collection
