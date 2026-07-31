@@ -10,10 +10,10 @@ last_name: 董
 superuser: true
 
 # Role/position
-role: DevOps Engineer & Independent Researcher
+role: DevOps Engineer · AI Infrastructure · Open Source Builder
 
-# Short bio (displayed in user profile at end of posts)
-bio: DevOps 工程师、开源工具 mcp-dbutils 作者、技术博客 jiejue.ai 主理人。工作于阿联酋阿布扎比，专注数据库工具链、AI Agent、密码学工程。
+# Short bio
+bio: 阿联酋主权 AI 基础设施工程师、mcp-dbutils 作者、jiejue.ai 主理人。专注 AI Agent 工业落地——数据库安全、企业级部署、生产环境运维。
 
 # Organizations/Affiliations
 organizations:
@@ -35,17 +35,16 @@ social:
     icon_pack: custom
     link: https://space.bilibili.com/38363039
 
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Education
 education:
-  - area: 数据科学硕士 (with Distinction)
+  - area: 数据科学硕士 (MSc with Distinction, GPA 4.0/4.0)
     institution: 伯明翰大学迪拜分校
-    date_start: 2023-01-01
+    date_start: 2022-01-01
     date_end: 2024-12-31
     summary: |
-      硕士论文聚焦于 AI 安全与 LLM 评估框架。以优等成绩 (Distinction) 毕业。
+      毕业论文：*Social Media User Sentiment Analysis Using Large Language Models*
 
   - area: 远程教育学士
     institution: 北京航空航天大学
@@ -54,8 +53,8 @@ education:
 
   - area: 图形图像制作
     institution: 北京北大方正软件技术学院
-    date_start: 2008-01-01
-    date_end: 2011-12-31
+    date_start: 2007-01-01
+    date_end: 2010-12-31
 
 # Work experience
 work:
@@ -66,10 +65,7 @@ work:
     date_start: 2021-12-01
     date_end: ''
     summary: |
-      阿联酋国家级 AI 平台的核心基础设施工程师。从零架构独立设计、部署、维护完整的基础设施层，直至盈利生产运营：
-      - 搭建 Kubernetes 编排、CI/CD 自动化
-      - 构建 Serverless 监控工作流
-      - 服务 LLM-powered 国家级应用
+      参与阿联酋主权 AI 基础设施的部署工作，在符合国内数据驻留和 170+ 安全策略合规要求的环境中完成底层架构搭建。为每周处理超过 1000 亿 token 的大规模 AI 推理工作负载提供底层支持。
 
   - position: Data Operations Engineer
     company_name: HSBC (Outsourcing)
@@ -78,8 +74,7 @@ work:
     date_start: 2020-10-01
     date_end: 2021-11-30
     summary: |
-      - Jenkins pipeline 自动化数据处理和分析
-      - InfluxDB + Grafana 实时数据监控
+      Jenkins pipeline 自动化数据处理和分析。InfluxDB + Grafana 实时数据监控。
 
   - position: Data Specialist
     company_name: NR-ESC (半导体制造)
@@ -89,7 +84,6 @@ work:
     date_end: 2020-07-31
     summary: |
       半导体制造数据分析。应用统计方法优化生产流程和库存预测。
-      首次接触硬件供应链——影响了后来对硬件级安全的兴趣。
 
 # Skills
 skills:
@@ -107,23 +101,13 @@ skills:
       - Ruby
       - C
       - Shell
-  - name: 数据科学与统计
-    items:
-      - 假设检验
-      - 概率建模
-      - 数据可视化
-  - name: AI/ML
+  - name: 数据科学与 AI
     items:
       - LangChain/LangGraph
       - PyTorch
-      - HuggingFace
       - MCP Protocol
-  - name: 正在学习
-    items:
-      - VHDL
-      - 数字系统设计
-      - 抽象代数
-      - 数论
+      - 统计建模
+      - 数据可视化
 
 # Languages
 languages:

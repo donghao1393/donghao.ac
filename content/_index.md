@@ -11,9 +11,10 @@ sections:
     content:
       username: me
       text: |-
-        阿联酋阿布扎比 · DevOps Engineer · 开源作者 · 独立研究者
+        阿联酋主权 AI 基础设施工程师 · 开源工具作者
 
-        [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型直接分析数据库的开源工具。
+        [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
+        将 AI Agent 落地到工业场景：数据库安全接入、企业级部署、生产环境运维。
         技术博客 [jiejue.ai](https://jiejue.ai) 主理人，周活跃读者 1,960 人。
       button:
         text: 下载简历
@@ -82,7 +83,7 @@ sections:
 
         ### 精选 Pull Request
 
-        - **[tlaplus/tlaplus](https://github.com/tlaplus/tlaplus)** — 形式化验证语言 TLA⁺ 的官方仓库。提交并被合并的 PR 引起了社区关注，有开发者专程通过 LinkedIn 邀请合作。
+        - **知名开源项目官方仓库** — 提交并被合并的 PR 引起了社区关注，有开发者专程通过 LinkedIn 邀请合作。
         - **持续贡献** — 查看 [GitHub Profile](https://github.com/donghao1393) 了解完整的 PR 历史和开源活动。
 
         </div>

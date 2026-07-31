@@ -7,11 +7,11 @@ name:
   family: 董
 status:
   icon: "💻"
-role: DevOps Engineer & Independent Researcher
+role: DevOps Engineer · AI Infrastructure · Open Source Builder
 bio: |
-  阿联酋阿布扎比的 DevOps 工程师、开源工具 [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者。
+  阿联酋主权 AI 基础设施工程师，开源工具 [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
   技术博客 [jiejue.ai](https://jiejue.ai) 主理人，周活跃读者 1,960 人。
-  正在向密码学工程方向转型，聚焦硬件随机数生成。
+  专注于将 AI Agent 落地到工业场景——数据库安全、企业级部署、生产环境运维。
 
 affiliations:
   - name: Core42
@@ -31,16 +31,16 @@ links:
     label: B站
 
 interests:
-  - 数据库工具链
   - AI Agent / MCP 协议
-  - 密码学工程 / TRNG
-  - 形式化验证 / TLA⁺
+  - 工业数据库安全
+  - Kubernetes 编排运维
   - 开源基础设施
+  - 数据科学与统计
 
 education:
   - degree: 数据科学硕士 (MSc with Distinction, GPA 4.0/4.0)
     institution: 伯明翰大学迪拜分校
-    start: 2023-01-01
+    start: 2022-01-01
     end: 2024-12-31
     summary: |
       毕业论文：*Social Media User Sentiment Analysis Using Large Language Models*
@@ -53,15 +53,15 @@ education:
 
   - degree: 大专 · 图形图像制作
     institution: 北京北大方正软件技术学院
-    start: 2008-01-01
-    end: 2011-12-31
+    start: 2007-01-01
+    end: 2010-12-31
 
 experience:
   - role: DevOps Engineer
     org: Core42
     start: 2021-12-01
     summary: |
-      参与阿联酋主权 AI 基础设施（sovereign AI infrastructure）的部署工作，在符合国内数据驻留和 170+ 安全策略合规要求的环境中完成底层架构搭建。独立设计、部署、维护完整的基础设施层，从零架构直至盈利生产运营。搭建 Kubernetes 编排、CI/CD 自动化、Serverless 监控工作流，为每周处理超过 1000 亿 token 的大规模 AI 推理工作负载提供底层支持。
+      参与阿联酋主权 AI 基础设施的部署工作，在符合国内数据驻留和 170+ 安全策略合规要求的环境中完成底层架构搭建。独立设计、部署、维护完整的基础设施层，从零架构直至盈利生产运营。搭建 Kubernetes 编排、CI/CD 自动化、Serverless 监控工作流，为每周处理超过 1000 亿 token 的大规模 AI 推理工作负载提供底层支持。
 
   - role: Data Operations Engineer
     org: HSBC (Outsourcing)
@@ -75,7 +75,7 @@ experience:
     start: 2019-03-01
     end: 2020-07-31
     summary: |
-      半导体制造数据分析。应用统计方法优化生产流程和库存预测。首次接触硬件供应链——影响了后来对硬件级安全的兴趣。
+      半导体制造数据分析。应用统计方法优化生产流程和库存预测。
 
 skills:
   - name: 基础设施与系统
@@ -110,12 +110,6 @@ skills:
         level: 3
       - label: MCP Protocol
         level: 4
-  - name: 正在学习
-    items:
-      - label: VHDL / 数字系统设计
-        level: 2
-      - label: 抽象代数 / 数论
-        level: 2
 
 languages:
   - name: 中文
