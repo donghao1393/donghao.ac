@@ -24,7 +24,7 @@ links:
 
 ## 做了什么
 
-1. **数据清洗与探索**：从原始 Twitter 语料中抽样、分词、去停用词、构建 n-gram 频率矩阵。写了一份完整的数据探索报告（[R Markdown](https://github.com/donghao1393)），分析了词频分布、Zipf 定律的实证表现、以及 blog/news/twitter 三种文本的句式差异。
+1. **数据清洗与探索**：从原始 Twitter 语料中抽样、分词、去停用词、构建 n-gram 频率矩阵。写了一份 R Markdown 数据探索报告，分析了词频分布、Zipf 定律的实证表现、以及 blog/news/twitter 三种文本的句式差异。
 
 2. **n-gram 语言模型**：基于马尔可夫假设构建 unigram/bigram/trigram 模型。核心挑战是处理未见过的 n-gram——模型在训练集中没见过的词组合，不能直接给零概率。
 
@@ -38,4 +38,4 @@ R · quanteda · data.table · ggplot2 · Shiny · Good-Turing Estimation · shi
 
 ## 为什么值得看
 
-这是 2016 年自学完成的。没有导师、没有实验室、没有 GPU——就用一台 MacBook 和 Coursera 上的课程视频。从数据清洗到数学模型到交互式部署，一条完整的独立生产线。八年后回头看，这也是我后来做 mcp-dbutils、做 AI Agent 的底层工作流原型：**拿到数据 → 理解本质 → 建模 → 部署给人用**。
+这是 2016 年自学完成的。没有导师、没有实验室、没有 GPU——就用一台自己组装的 PC 和 Coursera 上的课程视频。从数据清洗到数学模型到交互式部署，一条完整的独立生产线。十年后回头看，这也是我后来做 mcp-dbutils、做 AI Agent 的底层工作流原型：**拿到数据 → 理解本质 → 建模 → 部署给人用**。
