@@ -120,7 +120,7 @@ sections:
 
         </div>
 
-        <p style="margin-top: 1rem;"><a href="https://space.bilibili.com/" target="_blank">→ 在 B站 查看更多视频（含旅游 vlog）</a></p>
+        <p style="margin-top: 1rem;"><a href="https://space.bilibili.com/38363039" target="_blank">→ 在 B站 查看更多视频（含旅游 vlog）</a></p>
     design:
       columns: '1'
 

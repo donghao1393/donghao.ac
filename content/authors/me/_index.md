@@ -33,7 +33,7 @@ social:
     link: https://linkedin.com/in/donghao1393
   - icon: custom/bilibili
     icon_pack: custom
-    link: https://space.bilibili.com/
+    link: https://space.bilibili.com/38363039
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

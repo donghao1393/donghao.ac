@@ -25,6 +25,10 @@ links:
     url: https://github.com/donghao1393
   - icon: brands/linkedin
     url: https://linkedin.com/in/donghao1393
+  - icon: video-camera
+    icon_pack: hero
+    url: https://space.bilibili.com/38363039
+    label: B站
 
 interests:
   - 数据库工具链
@@ -34,12 +38,13 @@ interests:
   - 开源基础设施
 
 education:
-  - degree: 数据科学硕士 (with Distinction)
+  - degree: 数据科学硕士 (MSc with Distinction, GPA 4.0/4.0)
     institution: 伯明翰大学迪拜分校
     start: 2023-01-01
     end: 2024-12-31
     summary: |
-      硕士论文聚焦于 AI 安全与 LLM 评估框架。以优等成绩 (Distinction) 毕业。
+      毕业论文：*Social Media User Sentiment Analysis Using Large Language Models*
+      以 Distinction（优等）成绩毕业，GPA 4.0/4.0。
 
   - degree: 远程教育学士
     institution: 北京航空航天大学
