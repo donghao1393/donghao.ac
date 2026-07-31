@@ -18,4 +18,4 @@ links:
 
 活动当天，中国驻阿联酋大使出席。
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=947975181&bvid=BV1Ps4y1t7pQ&cid=967597463&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=947975181&bvid=BV1Ps4y1t7pQ&cid=967597463&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>

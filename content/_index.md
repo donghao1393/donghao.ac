@@ -114,12 +114,12 @@ sections:
 
         <div>
           <h4>让 DeepSeek 给你的数据库做分析</h4>
-          <iframe src="//player.bilibili.com/player.html?bvid=BV1pBNXexETM&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
+          <iframe src="//player.bilibili.com/player.html?bvid=BV1pBNXexETM&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
         </div>
 
         <div>
           <h4>在 Windows 上用 MCP 做数据分析</h4>
-          <iframe src="//player.bilibili.com/player.html?bvid=BV1D5ZxYrEKS&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
+          <iframe src="//player.bilibili.com/player.html?bvid=BV1D5ZxYrEKS&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
         </div>
 
         </div>

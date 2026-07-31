@@ -16,4 +16,4 @@ links:
 
 2023年1月17日，中国海军162南宁舰抵达阿联酋阿布扎比访问。受邀登舰参观，近距离感受中国海军风采。该视频冲上B站首页推荐，成为当日顶流内容。
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=224572990&bvid=BV1Ab411d7qe&cid=1013737070&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=224572990&bvid=BV1Ab411d7qe&cid=1013737070&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
