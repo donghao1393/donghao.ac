@@ -149,11 +149,6 @@ sections:
           <p>SQL 优化、数据库工具开发、数据工程</p>
         </div>
 
-        <div style="background: var(--color-surface-2); padding: 1.5rem; border-radius: 8px;">
-          <h4>⚡ 效率工具</h4>
-          <p>Alfred Workflow、自动化脚本、开发环境调优</p>
-        </div>
-
         </div>
 
         <p style="margin-top: 1.5rem;"><a href="https://jiejue.ai" target="_blank" class="hbx-button">→ 访问 jiejue.ai</a></p>
