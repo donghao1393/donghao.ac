@@ -65,7 +65,7 @@ Python 3.10+ · MCP Protocol · SQLAlchemy · asyncio
 
 ## 工业场景方向（规划中）
 
-mcp-dbutils 正在向「数读」工业 AI Agent 演进。目标场景：
+mcp-dbutils 正在向工业 AI Agent 方向演进。目标场景：
 
 - **生产数据库问答**：工厂车间主任用自然语言问"上周哪条产线良率最低"，Agent 直接查数据库给出答案，不需要等 IT 部门写 SQL
 - **设备状态巡检**：Agent 定时扫描设备运行日志表，发现异常自动告警，附带历史趋势分析
