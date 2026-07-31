@@ -177,6 +177,11 @@ sections:
       subtitle: ''
       text: |-
         如果你对我的开源项目、研究方向或创业方向感兴趣，欢迎联系我。
+
+        <div style="margin-top: 1rem; padding: 1rem; background: var(--color-surface-2); border-radius: 8px; text-align: center; max-width: 200px;">
+          <img src="/uploads/wechat-qr.png" alt="微信二维码" style="width: 100%; border-radius: 4px;">
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;">微信扫一扫</p>
+        </div>
       email: donghao@donghao.ac
       phone: ''
       address:
