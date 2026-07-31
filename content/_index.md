@@ -122,6 +122,11 @@ sections:
           <iframe src="//player.bilibili.com/player.html?bvid=BV1D5ZxYrEKS&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
         </div>
 
+        <div>
+          <h4>MCP 多数据库连接 & 大数据 BI 面板演示</h4>
+          <iframe src="//player.bilibili.com/player.html?bvid=BV1PuQYYqEkC&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"></iframe>
+        </div>
+
         </div>
 
         <p style="margin-top: 1rem;"><a href="https://space.bilibili.com/38363039" target="_blank">→ 在 B站 查看更多视频（含旅游 vlog）</a></p>
