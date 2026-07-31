@@ -41,20 +41,20 @@ highlight_name: true
 education:
   - area: 数据科学硕士 (MSc with Distinction, GPA 4.0/4.0)
     institution: 伯明翰大学迪拜分校
-    date_start: 2022-01-01
-    date_end: 2024-12-31
+    date_start: 2022-09-10
+    date_end: 2024-11-22
     summary: |
       毕业论文：*Social Media User Sentiment Analysis Using Large Language Models*
 
   - area: 远程教育学士
     institution: 北京航空航天大学
-    date_start: 2013-01-01
-    date_end: 2015-12-31
+    date_start: 2013-03-01
+    date_end: 2015-07-10
 
   - area: 图形图像制作
     institution: 北京北大方正软件技术学院
-    date_start: 2007-01-01
-    date_end: 2010-12-31
+    date_start: 2007-09-01
+    date_end: 2010-07-01
 
 # Work experience
 work:

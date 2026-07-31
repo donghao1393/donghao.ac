@@ -34,26 +34,29 @@ sections:
         shape: circle
 
   # ═══════════════════════ 数字说话 ═══════════════════════
-  - block: stats
+  - block: markdown
     content:
-      title: ''
-      items:
-        - title: 230+
-          description: 技术文章
-          icon: hero/document-text
-        - title: 1,960
-          description: 周活跃读者
-          icon: hero/user-group
-        - title: 6.5k+
-          description: GitHub Forks
-          icon: hero/arrow-trending-up
-        - title: 10+
-          description: 年专业经验
-          icon: hero/clock
+      text: |-
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; padding: 1.5rem 0; text-align: center;">
+          <div>
+            <div style="font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1.2;">230+</div>
+            <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">技术文章</div>
+          </div>
+          <div>
+            <div style="font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1.2;">1,960</div>
+            <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">周活跃读者</div>
+          </div>
+          <div>
+            <div style="font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1.2;">6.5k+</div>
+            <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">GitHub Forks</div>
+          </div>
+          <div>
+            <div style="font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1.2;">10+</div>
+            <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">年专业经验</div>
+          </div>
+        </div>
     design:
-      columns: '4'
-      spacing:
-        padding: ['2rem', 0, '2rem', 0]
+      columns: '1'
 
   # ═══════════════════════ 精选项目 ═══════════════════════
   - block: collection
