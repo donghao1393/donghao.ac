@@ -1,19 +1,18 @@
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
+# Website name (set in params.yaml under hugoblox.identity.name)
 title: ''
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://donghao.ac/'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: zh
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 

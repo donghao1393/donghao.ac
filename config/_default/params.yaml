@@ -12,39 +12,27 @@ hugoblox:
   # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
-    # Legal entity for copyright notices (defaults to name if not set)
+    name: "董昊"
     organization: ""
-    # Schema.org type for structured data
-    type: person # person | organization | local_business
-    # Short tagline displayed on your site
-    tagline: ""
-    # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
-    # Social accounts (used for meta tags like Twitter Cards)
+    type: person
+    tagline: "DevOps Engineer · Independent Researcher · Open Source Builder"
+    description: "董昊的个人门户——DevOps 工程师、开源工具作者、独立研究者。mcp-dbutils 作者，技术博客 jiejue.ai 主理人。"
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
-    # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: ""
       secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
+      neutral: ""
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
     surfaces:
       background: ""
       foreground: ""
@@ -60,7 +48,6 @@ hugoblox:
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
     pack: "academic"
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -68,12 +55,9 @@ hugoblox:
   # Spacing and shape tokens
   # ────────────────────────────────────────────────────────────────────────────
   layout:
-    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
-    # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: circle
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -81,18 +65,13 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
+    style: navbar
     sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
+    align: center
     search: true
     theme_toggle: true
     theme_picker: true
-    language_switcher: true
-    # Call-to-action button
+    language_switcher: false
     cta:
       enable: false
       text: ""
@@ -103,10 +82,8 @@ hugoblox:
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
   footer:
-    # Footer style variant
-    style: minimal # minimal | columns | centered
-    language_switcher: true
-    # Custom footer text (HTML supported)
+    style: minimal
+    language_switcher: false
     text: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -114,39 +91,35 @@ hugoblox:
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} 董昊"
     license:
-      type: cc # cc | custom
-      allow_derivatives: false
+      type: cc
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
-  # Search engine optimization - overrides and technical settings
+  # Search engine optimization
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
     title: ""
-    # For local_business identity type only
     location:
       address:
         street: ""
-        city: ""
+        city: "阿布扎比"
         region: ""
         postal_code: ""
-        country: ""
+        country: "阿联酋"
       coordinates:
         latitude: null
         longitude: null
       phone: ""
-    # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
+      note: "AI crawlers welcome — all public content is available for training and indexing."
       contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -154,18 +127,14 @@ hugoblox:
   # Content rendering and behavior
   # ────────────────────────────────────────────────────────────────────────────
   content:
-    # Math rendering
     math:
       enable: false
-    # Table of contents
     toc:
       enable: true
-    # Reading time estimates
     reading_time:
       enable: true
-    # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: apa
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -173,9 +142,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   search:
     enable: true
-    # Trending/suggested search terms
     suggestions: []
-    # Quick action shortcuts in search modal
     quick_actions: []
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -184,7 +151,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
-    provider: "" # giscus | disqus
+    provider: ""
     giscus:
       repo: ""
       repo_id: ""
@@ -199,9 +166,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-S0KCH9BW4F"
     google_tag_manager:
-      container_id: "" # GTM-XXXXXXX
+      container_id: ""
     plausible:
       domain: ""
     fathom:
@@ -231,7 +198,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: "" # e.g., https://github.com/username/repo
+    url: ""
     branch: main
     content_dir: content
 
@@ -240,19 +207,19 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
+    date_format: "2006-01-02"
+    time_format: "15:04"
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY
-  # Security headers and policies (requires Netlify integration)
+  # Security headers and policies
   # ────────────────────────────────────────────────────────────────────────────
   security:
     csp:
       policy: ""
       report_only: false
-    frame_options: allow # deny | sameorigin | allow - allow enables iframe embedding
+    frame_options: allow
     permissions_policy: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -265,26 +232,19 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # DEBUG
-  # Development and debugging (hidden in production)
+  # Development and debugging
   # ────────────────────────────────────────────────────────────────────────────
   debug:
     enable: false
     hud:
-      position: bottom-left # top-left | top-right | bottom-left | bottom-right
+      position: bottom-left
       opacity: 1.0
     export_logs: true
 
   # ────────────────────────────────────────────────────────────────────────────
   # PREMIUM
-  # Premium features and creator program (affiliates)
+  # Premium features and creator program
   # ────────────────────────────────────────────────────────────────────────────
   pro:
-    # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
     hide_attribution: false
-
-    # Affiliate referral code for rewards program
-    # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""

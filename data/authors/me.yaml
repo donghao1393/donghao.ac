@@ -2,115 +2,120 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: 董昊
+  given: 昊
+  family: 董
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"
+role: DevOps Engineer & Independent Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  阿联酋阿布扎比的 DevOps 工程师、开源工具 [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者。
+  技术博客 [jiejue.ai](https://jiejue.ai) 主理人，周活跃读者 1,960 人。
+  正在向密码学工程方向转型，聚焦硬件随机数生成。
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Core42
+    url: ''
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: 'mailto:donghao@donghao.ac'
+    label: 邮件
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/donghao1393
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://linkedin.com/in/donghao1393
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 数据库工具链
+  - AI Agent / MCP 协议
+  - 密码学工程 / TRNG
+  - 形式化验证 / TLA⁺
+  - 开源基础设施
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: 数据科学硕士 (with Distinction)
+    institution: 伯明翰大学迪拜分校
+    start: 2023-01-01
+    end: 2024-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      硕士论文聚焦于 AI 安全与 LLM 评估框架。以优等成绩 (Distinction) 毕业。
+
+  - degree: 远程教育学士
+    institution: 北京航空航天大学
+    start: 2013-01-01
+    end: 2015-12-31
+
+  - degree: 大专 · 图形图像制作
+    institution: 北京北大方正软件技术学院
+    start: 2008-01-01
+    end: 2011-12-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: DevOps Engineer
+    org: Core42
+    start: 2021-12-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      阿联酋国家级 AI 平台的核心基础设施工程师。从零架构独立设计、部署、维护完整的基础设施层，直至盈利生产运营。搭建 Kubernetes 编排、CI/CD 自动化、Serverless 监控工作流，服务 LLM-powered 国家级应用。
+
+  - role: Data Operations Engineer
+    org: HSBC (Outsourcing)
+    start: 2020-10-01
+    end: 2021-11-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Jenkins pipeline 自动化数据处理和分析。InfluxDB + Grafana 实时数据监控。
+
+  - role: Data Specialist
+    org: NR-ESC (半导体制造)
+    start: 2019-03-01
+    end: 2020-07-31
+    summary: |
+      半导体制造数据分析。应用统计方法优化生产流程和库存预测。首次接触硬件供应链——影响了后来对硬件级安全的兴趣。
 
 skills:
-  - name: Technical Skills
+  - name: 基础设施与系统
+    items:
+      - label: Kubernetes
+        level: 5
+      - label: Terraform
+        level: 5
+      - label: CI/CD
+        level: 5
+      - label: Linux 系统管理
+        level: 5
+  - name: 编程语言
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: R
         level: 4
-  - name: Research & Communication
+      - label: Rust
+        level: 3
+      - label: Ruby
+        level: 3
+      - label: C
+        level: 3
+  - name: 数据科学与 AI
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: 统计建模
         level: 4
-      - label: Grant Proposals
+      - label: LangChain/LangGraph
         level: 4
+      - label: PyTorch
+        level: 3
+      - label: MCP Protocol
+        level: 4
+  - name: 正在学习
+    items:
+      - label: VHDL / 数字系统设计
+        level: 2
+      - label: 抽象代数 / 数论
+        level: 2
 
 languages:
-  - name: English
+  - name: 中文
     level: 5
-    label: Native
-  - name: Spanish
+    label: 母语
+  - name: 英语
     level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+    label: 专业工作
