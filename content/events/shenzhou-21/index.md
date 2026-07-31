@@ -3,6 +3,10 @@ title: 神舟二十一号发射
 summary: 现场见证中国载人航天神舟二十一号飞船发射
 date: '2025-10-30T00:00:00Z'
 
+image:
+  filename: 'https://i0.hdslb.com/bfs/archive/3f87ba236de5b88fe015eeccdb10ff2bc85111ee.jpg'
+  preview_only: true
+
 links:
   - icon: video-camera
     icon_pack: hero

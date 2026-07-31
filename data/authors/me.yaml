@@ -61,7 +61,7 @@ experience:
     org: Core42
     start: 2021-12-01
     summary: |
-      阿联酋国家级 AI 平台的核心基础设施工程师。从零架构独立设计、部署、维护完整的基础设施层，直至盈利生产运营。搭建 Kubernetes 编排、CI/CD 自动化、Serverless 监控工作流，服务 LLM-powered 国家级应用。
+      参与阿联酋主权 AI 基础设施（sovereign AI infrastructure）的部署工作，在符合国内数据驻留和 170+ 安全策略合规要求的环境中完成底层架构搭建。独立设计、部署、维护完整的基础设施层，从零架构直至盈利生产运营。搭建 Kubernetes 编排、CI/CD 自动化、Serverless 监控工作流，为每周处理超过 1000 亿 token 的大规模 AI 推理工作负载提供底层支持。
 
   - role: Data Operations Engineer
     org: HSBC (Outsourcing)
