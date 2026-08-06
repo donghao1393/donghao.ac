@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2022-10-24
@@ -11,18 +10,21 @@ sections:
     content:
       username: me
       text: |-
-        阿联酋主权 AI 基础设施工程师 · 开源工具作者
+        AI 基础设施工程师 · 开源工具作者 · 工作生活在阿联酋
 
-        [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
-        将 AI Agent 落地到工业场景：数据库安全接入、企业级部署、生产环境运维。
+        [mcp-dbutils（数读）](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
         技术博客 [jiejue.ai](https://jiejue.ai) 主理人，周活跃读者 1,960 人。
+
+        曾以一己之力，通过 R Shiny 应用开发，让雇主公司走上了跨部门流程数据联通的现代化之路——当时我只是一名数据专员。
+
+        我相信中国人可以像西方人一样，靠智力劳动获得匹配的收入，而不必在苦力的劳作与微薄的收入中内卷。
       button:
         text: 下载简历
         url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
-        interests: ''
+        interests: '研究方向'
     design:
       background:
         gradient_mesh:
@@ -103,21 +105,6 @@ sections:
     design:
       columns: '1'
 
-  # ═══════════════════════ 活动 ═══════════════════════
-  - block: collection
-    id: events
-    content:
-      title: 活动与见闻
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - events
-      count: 5
-    design:
-      view: card
-      columns: '2'
-
   # ═══════════════════════ GitHub 开源贡献 ═══════════════════════
   - block: markdown
     id: opensource
@@ -129,16 +116,12 @@ sections:
 
         <div style="flex: 1; min-width: 280px;">
 
-        ### 精选 Pull Request
-
         - **知名开源项目官方仓库** — 提交并被合并的 PR 引起了社区关注，有开发者专程通过 LinkedIn 邀请合作。
         - **持续贡献** — 查看 [GitHub Profile](https://github.com/donghao1393) 了解完整的 PR 历史和开源活动。
 
         </div>
 
         <div style="flex: 1; min-width: 280px;">
-
-        ### GitHub 动态
 
         <img src="https://ghchart.rshah.org/donghao1393" alt="GitHub Contributions" style="width: 100%; border-radius: 8px;" />
 
@@ -153,34 +136,34 @@ sections:
     id: blog
     content:
       title: 技术博客
-      subtitle: 'jiejue.ai · 230+ 篇文章 · 周活跃 1,960 人'
+      subtitle: ''
       text: |-
-        我的技术博客 [jiejue.ai](https://jiejue.ai) 专注于 AI Agent、数据库工具链、开发效率等主题。
+        <p style="font-size: 1.1rem;"><a href="https://jiejue.ai" target="_blank"><strong>jiejue.ai</strong></a>——230+ 篇文章，周活跃读者 1,960 人。专注 AI Agent、数据库工具链。</p>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
-
-        <div style="background: var(--color-surface-2); padding: 1.5rem; border-radius: 8px;">
-          <h4>🤖 AI Agent</h4>
-          <p>大模型应用、Agent 架构、工具链设计</p>
-        </div>
-
-        <div style="background: var(--color-surface-2); padding: 1.5rem; border-radius: 8px;">
-          <h4>🗄️ 数据库</h4>
-          <p>SQL 优化、数据库工具开发、数据工程</p>
-        </div>
-
-        </div>
-
-        <p style="margin-top: 1.5rem;"><a href="https://jiejue.ai" target="_blank" class="hbx-button">→ 访问 jiejue.ai</a></p>
+        <p style="margin-top: 1rem;"><a href="https://jiejue.ai" target="_blank">→ 访问 jiejue.ai</a></p>
     design:
       columns: '1'
 
-  # ═══════════════════════ 点子/笔记 ═══════════════════════
+  # ═══════════════════════ 活动 ═══════════════════════
+  - block: collection
+    id: events
+    content:
+      title: 活动与见闻
+      subtitle: ''
+      filters:
+        folders:
+          - events
+      count: 5
+    design:
+      view: card
+      columns: '2'
+
+  # ═══════════════════════ 点子 ═══════════════════════
   - block: collection
     id: notes
     content:
       title: 点子与思考
-      subtitle: '不定时更新的独立想法——就像 GitHub PR 一样随意'
+      subtitle: ''
       filters:
         folders:
           - notes

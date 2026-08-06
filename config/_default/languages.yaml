@@ -1,13 +1,9 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
 zh:
   locale: zh-Hans
   title: 董昊
   params:
-    description: 董昊——DevOps 工程师、开源工具作者、独立研究者
+    description: 董昊——AI 基础设施工程师、开源工具作者、独立研究者
   menu:
     main:
       - name: 关于
@@ -16,24 +12,15 @@ zh:
       - name: 项目
         url: /#projects
         weight: 20
-      - name: 开源
-        url: /#opensource
-        weight: 30
       - name: 视频
         url: /#videos
-        weight: 40
-      - name: 活动
-        url: /#events
-        weight: 45
+        weight: 30
       - name: 博客
         url: /#blog
-        weight: 50
-      - name: 点子
-        url: /#notes
-        weight: 60
+        weight: 40
       - name: 简历
         url: experience/
-        weight: 70
+        weight: 50
       - name: 联系
         url: /#contact
-        weight: 80
+        weight: 60

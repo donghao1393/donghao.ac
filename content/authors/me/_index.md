@@ -10,10 +10,10 @@ last_name: 董
 superuser: true
 
 # Role/position
-role: DevOps Engineer · AI Infrastructure · Open Source Builder
+role: AI Infrastructure Engineer · Open Source Builder
 
 # Short bio
-bio: 阿联酋主权 AI 基础设施工程师、mcp-dbutils 作者、jiejue.ai 主理人。专注 AI Agent 工业落地——数据库安全、企业级部署、生产环境运维。
+bio: AI 基础设施工程师，工作生活在阿联酋。mcp-dbutils（数读）作者、jiejue.ai 主理人。专注 AI Agent 工业落地。
 
 # Organizations/Affiliations
 organizations:

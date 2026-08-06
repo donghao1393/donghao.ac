@@ -7,11 +7,11 @@ name:
   family: 董
 status:
   icon: "💻"
-role: DevOps Engineer · AI Infrastructure · Open Source Builder
+role: AI Infrastructure Engineer · Open Source Builder
 bio: |
-  阿联酋主权 AI 基础设施工程师，开源工具 [mcp-dbutils](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
+  AI 基础设施工程师，工作生活在阿联酋。开源工具 [mcp-dbutils（数读）](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
   技术博客 [jiejue.ai](https://jiejue.ai) 主理人，周活跃读者 1,960 人。
-  专注于将 AI Agent 落地到工业场景——数据库安全、企业级部署、生产环境运维。
+  相信中国人可以靠智力劳动获得匹配的收入。
 
 affiliations:
   - name: Core42
