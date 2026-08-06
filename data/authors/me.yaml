@@ -6,7 +6,6 @@ name:
   given: 昊
   family: 董
 status:
-  icon: "💻"
 role: AI Infrastructure Engineer · Open Source Builder
 bio: |
   AI 基础设施工程师，工作生活在阿联酋。开源工具 [mcp-dbutils（数读）](https://github.com/donghao1393/mcp-dbutils) 作者——让大模型安全连接工业数据库的 MCP 协议工具。
